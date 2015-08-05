@@ -18,7 +18,7 @@ namespace Decorator.DaHuaStructural
             BorderDecorator.SetComponent(ScrollDecorator);
             BorderDecorator.Operation();
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }

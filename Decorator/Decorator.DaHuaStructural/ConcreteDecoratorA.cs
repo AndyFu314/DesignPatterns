@@ -9,7 +9,7 @@ namespace Decorator.DaHuaStructural
     class ConcreteDecoratorA: Decorator
     {
         private string addedState;
-
+        
         public override void Operation()
         {
             base.Operation();
